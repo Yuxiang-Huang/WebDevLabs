@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Yuxiang Huang" />
+    <meta
+      name="keywords"
+      content="Carnegie Mellon University, Information Systems"
+    />
+    <meta name="description" content="Yuxiang Huang'ss professional website" />
+    <title>Yuxiang Huang</title>
+    <link rel="stylesheet" href="../static/style.css" />
+    <script defer src="../static/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body onload="addYear()">
+    <header>
+      <h1 id="webname">Yuxiang Huang</h1>
+      <nav id="myTopnav" class="topnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact Me</a>
+        <a href="fun.html">For Fun</a>
+        <a href="javascript:void(0);" class="icon">
+          <i class="fa fa-bars" onclick="activeNav()"></i>
+        </a>
+      </nav>
+    </header>
+    <div class="main">
+      <h2 id="greeting"></h2>
+      <img
+        src="../static/photo_of_me.jpeg"
+        alt="Yuxiang Huang profile image"
+        width="350px"
+        class="classA"
+      />
+      <div class="classA">
+        <span id="shortIntro"
+          >My name is Yuxiang Huang. I am a CMU freshman majoring in Information
+          Systems. I have more than four years of coding experience. I am
+          proficient in languages including Java, C#, Python, Javascript,
+          HTML/CSS, and Latex. Tools I know how to use include Git/GitHub,
+          Unity, Amazon Web Services (AWS), React, and Figma. One of my hobbies
+          is game development because I like how I can turn my imagination into
+          tangible projects through programming, and I have published 5
+          games.</span
+        >
+        <span id="readMore"> read more ...</span>
+        <span id="longIntro"
+          >I have a few years of web development experience and know languages
+          such as HTML/CSS, and javascript. I also published websites and chrome
+          extensions in React, utilizing MongoDB and Prima for backend storage
+          of data. I like listening to music, playing badminton, and playing
+          card games. One of my favorite card games is Coup. I am proficient in
+          Chinese and English, and I am intermediate in Spanish.</span
+        >
+        <span id="readLess"> read less</span>
+        <!-- <p id="intro">
+           
+        </p> -->
+      </div>
+    </div>
+    <footer>
+      <p id="copyYear">Yuxiang Huang &copy</p>
+    </footer>
+  </body>
+</html>

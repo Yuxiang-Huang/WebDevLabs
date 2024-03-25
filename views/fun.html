@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Yuxiang Huang" />
+    <meta
+      name="keywords"
+      content="Carnegie Mellon University, Information Systems"
+    />
+    <meta name="description" content="Yuxiang Huang'ss professional website" />
+    <title>Yuxiang Huang</title>
+    <link rel="stylesheet" href="../static/style.css" />
+    <script defer src="../static/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body onload="addYear()">
+    <header>
+      <h1 id="webname">Yuxiang Huang</h1>
+      <nav id="myTopnav" class="topnav">
+        <a href="index.html">Home</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact Me</a>
+        <a href="fun.html" class="active">For Fun</a>
+        <a href="javascript:void(0);" class="icon">
+          <i class="fa fa-bars" onclick="activeNav()"></i>
+        </a>
+      </nav>
+    </header>
+    <div class="mainFun">
+      <div id="item1">
+        <h2>Things I love to do for fun</h2>
+        <!-- <button id="SeeMoreBTN" onclick="showList()">Click to see...</button> -->
+        <ul id="FavList">
+          <li>Listen to Music</li>
+          <li>Play Badminton</li>
+          <li>Play Card Games</li>
+        </ul>
+      </div>
+      <div id="item2">
+        <iframe
+          width="600"
+          height="500"
+          src="https://www.youtube.com/embed/q9bU12gXUyM"
+          title="Beethoven - Für Elise (Piano Version)"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div id="item3">
+        <h3>My favorite places</h3>
+        <!--The div element for the map -->
+        <div id="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.673979317661!2d-79.92443522422319!3d40.43821747143617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f36fab9dc163%3A0xcf25d06a3ffdad01!2sDagu%20Rice%20Noodle!5e0!3m2!1sen!2sus!4v1711398787049!5m2!1sen!2sus"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+      <div id="item4">
+        <img
+          class="funIMG"
+          width="600"
+          height="500"
+          src="../static/fun_img.png"
+          alt="Fun Image"
+        />
+      </div>
+    </div>
+    <footer>
+      <p id="copyYear">Yuxiang Huang &copy;</p>
+    </footer>
+  </body>
+</html>
